@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <!-- Navbar -->
+  <header class="bg-white shadow-md p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-indigo-600">My Portfolio</h1>
+    <nav class="space-x-6">
+      <a href="#about" class="hover:text-indigo-600">About</a>
+      <a href="#projects" class="hover:text-indigo-600">Projects</a>
+      <a href="#contact" class="hover:text-indigo-600">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="flex flex-col items-center text-center py-16 bg-gradient-to-r from-indigo-500 to-purple-600 text-white">
+    <img src="https://via.placeholder.com/150" alt="Profile Picture" class="rounded-full shadow-lg border-4 border-white mb-6" />
+    <h2 class="text-4xl font-bold mb-2">Narayan kumar</h2>
+    <p class="text-lg">Web Developer | Designer | Learner</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-4xl mx-auto py-12 px-6">
+    <h3 class="text-2xl font-semibold mb-4 text-indigo-600">About Me</h3>
+    <p class="leading-relaxed">
+      Hi! I'm narayan kumar, a passionate developer who loves building modern, responsive, and user-friendly websites. I enjoy learning new technologies and working on exciting projects that solve real-world problems.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-gray-200 py-12">
+    <div class="max-w-5xl mx-auto px-6">
+      <h3 class="text-2xl font-semibold mb-6 text-indigo-600">Projects</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-4 rounded-xl shadow-md">
+          <h4 class="text-lg font-bold mb-2">Project 1</h4>
+          <p class="text-sm">Short description of the project goes here.</p>
+        </div>
+        <div class="bg-white p-4 rounded-xl shadow-md">
+          <h4 class="text-lg font-bold mb-2">Project 2</h4>
+          <p class="text-sm">Short description of the project goes here.</p>
+        </div>
+        <div class="bg-white p-4 rounded-xl shadow-md">
+          <h4 class="text-lg font-bold mb-2">Project 3</h4>
+          <p class="text-sm">Short description of the project goes here.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="max-w-4xl mx-auto py-12 px-6">
+    <h3 class="text-2xl font-semibold mb-6 text-indigo-600">Contact Me</h3>
+    <form class="space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-3 border rounded-lg" />
+      <input type="email" placeholder="Your Email" class="w-full p-3 border rounded-lg" />
+      <textarea placeholder="Your Message" class="w-full p-3 border rounded-lg"></textarea>
+      <button type="submit" class="bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-4">
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
